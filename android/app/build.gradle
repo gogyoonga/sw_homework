@@ -21,7 +21,11 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 plugins{
+<<<<<<< HEAD
     id 'com.android.application' version '8.1.1'
+=======
+    id 'com.android.application'
+>>>>>>> 9ae747f25a6a30dc0224dfbb0f2f88e8bfa54f6c
 }
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
