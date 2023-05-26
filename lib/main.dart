@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:software_homework/mouth_drug_screen.dart';
 import 'package:software_homework/search_screen.dart';
 import 'package:software_homework/warning.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/src/foundation/assertions.dart';
+import 'package:flutter/src/foundation/diagnostics.dart';
+import 'package:flutter/src/foundation/debug.dart';
 
 import 'cold_diagnose_screen.dart';
 import 'cold_drug_screen.dart';

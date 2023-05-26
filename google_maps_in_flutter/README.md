@@ -1,6 +1,6 @@
-# software_homework
+# google_maps_in_flutter
 
-Fuckinghomework
+A new Flutter project.
 
 ## Getting Started
 
