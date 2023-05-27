@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:software_homework/mouth_drug_screen.dart';
+import 'package:software_homework/pharmacy_search.dart';
 import 'package:software_homework/search_screen.dart';
 import 'package:software_homework/warning.dart';
 import 'package:flutter/foundation.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
         '/symptom/etc': (context) => const EtcScreen(),
         '/symptom/etc/warning': (context) => const Warning(),
         '/symptom/etc/mouth_drug_screen': (context) => const MouthDrugScreen(),
+        '/pharmacy_search': (context) => const PharmacySearch(),
       },
 
     );
@@ -76,7 +78,7 @@ class HomeScreen extends StatelessWidget {
               height: 50,
               child:ElevatedButton(
               onPressed: () {
-                // TODO:약물검색 화면으로 이동
+                  Navigator.pushNamed(context, '/symptom/etc/warning');
               },
               child: const Text('약물검색'),
             ),),
@@ -87,7 +89,7 @@ class HomeScreen extends StatelessWidget {
               child:
             ElevatedButton(
               onPressed: () {
-                // TODO: 약국검색 화면으로 이동
+                Navigator.pushNamed(context, '/pharmacy_search');
               },
               child: const Text('약국검색'),
             ),),
